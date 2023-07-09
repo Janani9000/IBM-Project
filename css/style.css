@@ -1,0 +1,63 @@
+.bannerBgImage{
+    height:100vh;
+    background:url("https://media.istockphoto.com/id/1055056612/photo/coding-late-into-the-night.jpg?s=612x612&w=0&k=20&c=0YSrM76hg4_9CivkEwhHOkyJZWMiV-4gJjOfKeE4qUs=");
+    background-size: cover;
+    position:relative;
+}
+
+.bannerText{
+    text-align: right;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.bannerTitle{
+    font-size: 4rem;
+
+}
+.bannerDesc{
+    font-size: 2rem;
+}
+.card{
+    cursor: pointer;
+}
+.card:hover{
+    background-color: rgb(247, 227, 234);
+    border: 2px solid rgb(228, 232, 219);
+}
+.bIcon{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+.img-fluid:hover{
+    border: 2px solid rgb(189, 213, 140);
+}
+.card-img-top{
+    height: 50vh;
+}
+#button{
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 5px;
+    
+}
+.about{
+    background-color: blueviolet;
+}
+.footer{
+    background-color: rgb(46, 40, 40);
+    height: 40px;
+    color: aliceblue;
+    text-align:left;
+}
+#icons{
+    position: relative;
+    align-items: flex-end;
+    size: 50px;
+}
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
